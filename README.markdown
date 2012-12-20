@@ -95,4 +95,4 @@ More functions include:
 - Batch insertion of preferences
 - ...
 
-You can get a full list of functions in the [MyrrixService.php](https://github.com/michelsalib/BCCMyrrixBundle/blob/master/MyrrixService.php) file.
+You can get a full list of functions in the [MyrrixService.php](https://github.com/michelsalib/bcc-myrrix/blob/master/src/BCC/Myrrix/MyrrixService.php) file.
