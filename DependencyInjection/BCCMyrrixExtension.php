@@ -16,6 +16,8 @@ class BCCMyrrixExtension extends Extension
 
         $container->setParameter('bcc_myrrix.host', $config['host']);
         $container->setParameter('bcc_myrrix.port', $config['port']);
+        $container->setParameter('bcc_myrrix.username', $config['username']);
+        $container->setParameter('bcc_myrrix.password', $config['password']);
 
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');

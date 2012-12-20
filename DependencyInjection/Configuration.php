@@ -26,6 +26,18 @@ class Configuration implements ConfigurationInterface
                     ->info('The port that runs the myrrix server.')
                     ->cannotBeEmpty()
                 ->end()
+                ->scalarNode('username')
+                    ->defaultNull()
+                    ->example('michel')
+                    ->info('The username to use with the myrrix server.')
+                    ->cannotBeEmpty()
+                ->end()
+                ->scalarNode('password')
+                    ->defaultNull()
+                    ->example('pa$$word')
+                    ->info('The password to use with the myrrix server.')
+                    ->cannotBeEmpty()
+                ->end()
             ->end()
         ;
 

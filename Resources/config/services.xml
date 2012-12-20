@@ -11,6 +11,8 @@
         <service id="bcc_myrrix.service" class="%bcc_myrrix.service.class%">
             <argument>%bcc_myrrix.host%</argument>
             <argument>%bcc_myrrix.port%</argument>
+            <argument>%bcc_myrrix.username%</argument>
+            <argument>%bcc_myrrix.password%</argument>
         </service>
     </services>
 </container>

@@ -15,14 +15,18 @@ class MyrrixService
     protected $client;
 
     /**
-     * @param $host The hostname
-     * @param $port The port
+     * @param string $host     The hostname
+     * @param int    $port     The port
+     * @param string $username The username
+     * @param string $password The password
      */
-    function __construct($host, $port)
+    function __construct($host, $port, $username = null, $password = null)
     {
         $this->client = MyrrixClient::factory(array(
             'hostname' => $host,
             'port'     => $port,
+            'username' => $username,
+            'password' => $password,
         ));
     }
 

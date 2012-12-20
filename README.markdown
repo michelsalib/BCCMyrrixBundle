@@ -55,6 +55,8 @@ You will have to configure your Myrrix endpoint in your configuration:
 bcc_myrrix:
     host: localhost # the myrrix host
     port: 8080      # the myrrix port
+    username: test  # the myrrix username
+    password: 1234  # the myrrix password
 ```
 
 ### Start a Myrrix server instance
