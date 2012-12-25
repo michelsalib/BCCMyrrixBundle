@@ -12,7 +12,7 @@
         "psr-0": { "BCC\\MyrrixBundle": "" }
     },
     "require": {
-        "symfony/framework-bundle": "2.1.*",
+        "symfony/framework-bundle": ">=2.0,<2.3-dev",
         "bcc/myrrix": "dev-master"
     },
     "authors": [
